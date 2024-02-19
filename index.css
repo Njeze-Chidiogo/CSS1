@@ -1,0 +1,111 @@
+body{
+    background-color:white;
+}
+    nav{
+        padding:16px 8px;
+        display:flex;
+        justify-content: space-between;
+    }
+    nav ul{
+        display:none;
+    }
+    nav button{
+        display: none;
+    }
+    nav h3{
+        font-size: 22px;
+    }
+    
+    h4{
+        font-size: larger;
+    }
+    p{  
+    }   
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 250px;
+    height: 50px;
+}
+/* tablets */
+@media only screen and (min-width:600px) {
+  body{
+
+  }      
+}
+/* laptop */
+@media only screen and (min-width:1024px) {
+    body{
+
+    }
+nav h3{
+    display: none;
+}
+nav{
+    padding: 16px 5px;
+    font-size: larger;
+    margin:0 60px;
+    
+}
+nav ul{
+    display:flex; 
+    list-style: none;
+}
+nav li a{
+    margin: 0 50px;
+    text-decoration: none;
+    color: black;
+} 
+nav button{
+    display: flex;
+    width: 100px;
+    text-align: center;
+} 
+}
+.logo{
+    width: 700px;
+    height: 50px;
+    /* margin: 5px 0 5px 50px; */
+} 
+.container{
+    display:flex;
+    margin:0 50px 0 60px;
+    width: 1200px;
+    height: 500px; 
+    flex-direction: row;
+    /* background-color: aqua; */
+    margin-top: -30px;
+
+  }
+  .container div{
+    width: 100%;
+    height: 100%;
+}
+
+.img{
+    /* width: 500px; */
+     /* height: 500px;  */
+}
+.words{
+   margin-top: 50px;
+  font-size: x-large;
+}
+button{
+  background-color: rgb(56, 129, 238); 
+  width: 200px;
+  height: 45px;
+  border-radius: 10px; 
+  border: none;
+  color: white;
+  padding: 12px;
+  font-weight: 700;
+}
+.sign{
+border-radius: 50;
+}
+h1 p{
+    font-size:xx-large;
+}
